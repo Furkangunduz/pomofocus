@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
+import { View, TouchableOpacity, Text } from 'react-native';
 import Counter from './Counter';
 
 const Body = () => {
 	return (
-		<View className='h-[35%] mt-5 bg-white/25 rounded-lg'>
+		<View className='h-[35%] mt-5 '>
 			<View className='flex-row justify-center items-center pt-2 space-x-4 '>
 				<TouchableOpacity className='px-2 py-1 bg-black/10 rounded text-white p-2'>
 					<Text className='text-white font-bold '>Pomodoro</Text>

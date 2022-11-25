@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, Image} from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
 
 const Header = () => {
 	return (
@@ -14,7 +14,7 @@ const Header = () => {
 				</TouchableOpacity>
 				<Image
 					className='w-6 h-6 rounded-full '
-					source={{uri: 'https://lh3.googleusercontent.com/a-/AFdZucofl7oK5B_YJNJTNPimD_7iESDbCr3y0mB6EbKqRw=s96-c'}}
+					source={{ uri: 'https://lh3.googleusercontent.com/a-/AFdZucofl7oK5B_YJNJTNPimD_7iESDbCr3y0mB6EbKqRw=s96-c' }}
 				/>
 			</View>
 		</View>

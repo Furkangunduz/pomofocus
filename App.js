@@ -28,7 +28,6 @@ function HomeScreen({ navigation }) {
         <Header />
         <Body />
         <TaskCounter TaskCount={1} />
-        {/* Tasks */}
       </View>
     </SafeAreaView>)
 }
